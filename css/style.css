@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+}
+
+.header {
+    margin: 0 auto;
+    background-color: #261901;
+
+}
+
+.container {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header .container img {
+    width: 100px;
+    padding: 15px 0;
+}
+
+.header h1 {
+    color: #FFF;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+   
+}
+
+.search-inputs {
+    display: flex;
+    padding-top: 25px;
+    margin: 0 auto;
+}
+
+#search-btn {
+    cursor: pointer;
+}
+
+main {
+    background-color: #D9A443;
+    padding-top: 20px;
+}
+
+
+
+menu nav ul li {
+    padding: 5px 0;
+    
+}
+
+menu nav ul li a {
+    text-decoration: none;
+    color:#000;
+
+    
+}
+
+.container-acordes {
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 50px;
+    
+}
+
+ .acorde {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.acorde img {
+    border-radius: 7px;
+}
+
+.acorde button {
+    width: 40px;
+    height: 20px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+footer {
+    background-color: #261901;
+    height: 50px;
+}
+
+
+footer p{
+    color: white;
+    margin: 10px auto;
+}
+
+footer a {
+    color: #FFF;
+}
