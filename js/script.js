@@ -51,3 +51,24 @@ function playc() {
     var audio = document.getElementById("audio-em7M");
     audio.play();
   }
+
+  const btnMobileMaiores = document.getElementById('btn-maiores');
+
+  function toggleMenuMaiores(){
+    const nav = document.getElementById('nav')
+    nav.classList.toggle('active')
+  }
+
+  btnMobileMaiores.addEventListener('click', toggleMenuMaiores)
+
+
+
+
+  const btnMobileMenores = document.getElementById('btn-menores');
+
+  function toggleMenuMenores(){
+    const nav = document.getElementById('nav')
+    nav.classList.toggle('active2')
+  }
+
+  btnMobileMenores.addEventListener('click', toggleMenuMenores)

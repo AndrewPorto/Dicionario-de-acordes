@@ -71,6 +71,10 @@ menu nav ul li a {
     
 }
 
+.acordes-menores {
+    border-top: 1px solid black;
+}
+
 .container-acordes {
     display: flex;
     flex: row;
@@ -102,18 +106,62 @@ menu nav ul li a {
 
 footer {
     background-color: #261901;
-    height: 50px;
+    height: 100px;
 }
 
 
-footer p{
+footer .footer-p{
     color: white;
-    margin: 10px auto;
+    margin: 20px auto 10px auto;
 }
 
-footer a {
+.footer-icons p{
+  
     color: #FFF;
+    
 }
+
+footer .container {
+    flex-direction: column;
+}
+
+.footer-icons {
+    margin: 0 auto;   
+    
+}
+
+.footer-icons span {
+    color: #FFF;
+    font-size: 30px;
+    margin: 0 5px;
+   
+}
+
+.footer-icons .fa-instagram:hover {
+  border-radius: 30px;
+  color: #fff;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);  
+}
+
+.footer-icons .fa-linkedin:hover {
+    color: #fff;
+    background: #008cec;
+    background: radial-gradient( #0085d2 0%, #4682b4 5%, #0000ff 45%,#006aa8 60%,#285AEB 90%);
+     
+  }
+
+.footer-icons .fa-github:hover {
+    color: #4078c0;
+
+}
+
+#btn-maiores, #btn-menores {
+    display: none;
+}
+
+
 
 @media (max-width: 739px) {
 	.container {
@@ -129,11 +177,37 @@ footer a {
     }
 
     menu nav ul li {
+        display: none;
         text-align: center;
     }
+
+   
 
     .container-acordes {
         justify-content: center;
        
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    #btn-maiores, #btn-menores {
+        display: inline;
+        padding: 3px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer; 
+        
+    }
+
+    #nav.active #acordes-maiores li{
+        display: flex;
+        margin: 5px 0 0px 10px;
+    }
+
+    #nav.active2 #acordes-menores li{
+        display: flex;
+        margin: 5px 0 0px 10px;
     }
 }
