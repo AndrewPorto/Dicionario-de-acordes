@@ -104,6 +104,53 @@ menu nav ul li a {
     border: none;
 }
 
+.contact {
+    background-color: #FF9D1D;
+    border-top: 2px solid #261901;
+}
+
+form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    align-items: flex-start;
+}
+
+.container h2{
+    margin: 0 auto;
+    
+}
+
+.name-email-btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-name-email {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-summit {
+    margin-top: 30px;
+    padding-left: 1px;
+}
+
+.btn-summit #enviar {
+    width: 55px;
+    height: 77px;
+    position: absolute;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.input-msg {
+    display: flex;
+    flex-direction: column;
+}
+
 footer {
     background-color: #261901;
     height: 100px;
